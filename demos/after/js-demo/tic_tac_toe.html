@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="tic_tac_toe.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Let's play tic tac toe</h1>
+
+    <div id="game_over"></div>
+        <div class="outline mar">
+            <div class="left" id="div0" onclick="on_division_click()"></div>
+            <div class="left" id="div1" onclick="on_division_click()"></div>
+            <div class="left" id="div2" onclick="on_division_click()"></div>
+        </div>
+
+        <div class="outline">
+            <div class="left" id="div3" onclick="on_division_click()"></div>
+            <div class="left" id="div4" onclick="on_division_click()"></div>
+            <div class="left" id="div5" onclick="on_division_click()"></div>
+        </div>
+
+        <div class="outline">
+            <div class="left" id="div6" onclick="on_division_click()"></div>
+            <div class="left" id="div7" onclick="on_division_click()"></div>
+            <div class="left" id="div8" onclick="on_division_click()"></div>
+        </div>
+    
+        <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton">Restart</button>
+
+
+        </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+.border{
+
+    border: solid 2px;
+    /* border-collapse: collapse; */
+    
+
+}
+
+
+.outline{
+
+    
+    font-size: 20px;
+    float: left;
+
+}
+.left{
+    height: 180px;
+    width: 230px;
+
+    padding: 10px;
+    border: 2px solid;
+    
+
+}
+
+body{
+
+text-align: center;
+
+}
+
+.mar{
+
+margin-left: 400px;
+
+}
+
+.o{
+
+    background-image: url(images/o-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.x{
+
+    background-image: url(images/x-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+@-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #game_over {
+    background-color: green;
+    color: white;
+
+    animation: fadein 4s ease-in-out;
+  }
+  
+
+.clicked{
+
+    font-size: large;
+
+}
